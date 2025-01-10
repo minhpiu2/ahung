@@ -68,7 +68,10 @@
         button:hover {
             background-color: #e63e00;
         }
-
+        .subtitle {
+            font-size: 1.5rem; /* Tăng kích cỡ dòng tiêu đề */
+            font-weight: bold;
+        }
         @media (max-width: 600px) {
             body {
                 font-size: 16px;
@@ -78,7 +81,11 @@
                 margin: 10px;
                 padding: 15px;
             }
-
+            
+            .subtitle {
+            font-size: 1.2rem; /* Tối ưu kích cỡ cho màn hình nhỏ */
+            }
+            
             header {
                 padding: 15px;
             }
@@ -88,11 +95,11 @@
 <body>
     <header>
         <h1>Chào mừng đến với trang giới thiệu của tôi</h1>
-        <p style="font-site: 36;font-weight: bold;">Lê Ngọc Hùng - Kỹ thuật viên VTVcab</p>
+        <p class="subtitle">Lê Ngọc Hùng - Kỹ thuật viên VTVcab</p>
     </header>
 
     <section id="about">
-        <h2>Tiểu sử</h2>
+        <h2>Ngọc Hùng xin chào.</h2>
         <p>...</p> <!-- Bạn có thể thêm nội dung tại đây -->
     </section>
 
